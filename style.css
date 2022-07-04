@@ -1,0 +1,51 @@
+body{
+    background-color:lightgray;
+    margin: 0px;
+}
+
+.d-flex{
+    display:flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+#titular{
+    justify-content: center;
+    background: whitesmoke;
+}
+
+#contenido{
+    align-items: center;
+}
+
+.post span{
+    font-size: 2;
+}
+
+.titular-post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Calibri';
+    padding: 5px;
+}
+
+.titular-post h2{
+    display: inline;
+}
+
+.post{
+    background-color:antiquewhite;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.post input{
+    display: center;
+}
+.post p{
+    padding: 5px;
+}
